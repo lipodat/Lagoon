@@ -24,7 +24,7 @@
                 </div>
                 <div class="header-top-right">
                     <span class="header-top-cabinet-icon"></span>
-                    <a href="" class="header-cabinet-link color-golden">
+                    <a href="" class="header-cabinet-link">
                         Личный кабинет
                     </a>
                 </div>
@@ -182,7 +182,7 @@
                         <img src="/img/cars.png" alt="" class="services-item-image">
                         <div class="services-item-info">
                             <div class="services-item-info-header">
-                                <a href="" class="services-item-info-link color-golden">Охраняемые автомобильные
+                                <a href="" class="services-item-info-link">Охраняемые автомобильные
                                     стоянки</a>
                                 <span class="icon-arrow icon-arrow-bronze"></span>
                             </div>
@@ -498,19 +498,19 @@
                         <ul class="tour-form-item">
                             <div class="tour-form-arriving-date">
                                 <label for="arriving-date-choice" class="form-arriving-date-label">Дата прибытия</label>
-                                <input type="date" id="arriving-date" name="form-arriving-date" required/>
+                                <input type="date" id="arriving-date" name="form-arriving-date" required />
                             </div>
                         </ul>
                         <ul class="tour-form-item">
                             <div class="tour-form-nights">
                                 <label for="nights-choice" class="form-nights-label">Ночей</label>
-                                <input type="number" id="nights" name="form-nights" value="6" required/>
+                                <input type="number" id="nights" name="form-nights" value="6" required />
                             </div>
                         </ul>
                         <ul class="tour-form-item">
                             <div class="tour-form-tourists">
                                 <label for="tourists-choice" class="form-tourists-label">Туристы</label>
-                                <input type="number" id="tourists" name="form-tourists" value="2" required/>
+                                <input type="number" id="tourists" name="form-tourists" value="2" required />
                             </div>
                         </ul>
                         <ul class="tour-form-item">
@@ -530,23 +530,54 @@
                 <div class="heading contacts-heading">
                     Контакты
                 </div>
-                <ul class="contacts-list">
-                    <li class="contacts-item">
-                        <div class="contacts-item-name">Адрес</div>
-                        <address>Киев, улица Юности, дом 5 строение 4, офис 2</address>
-                    </li>
-                    <li class="contacts-item">
-                        <div class="contacts-item-name">Телефоны</div>
-                        <div class="contacts-phones">
-                            <a href="tel:+3806712345678" class="contacts-phone">
-                                +38 (067) 123-45-67
-                            </a>
-                            <a href="tel:+380931234567" class="contacts-phone">
-                                +38 (093) 123-45-67
-                            </a>
-                        </div>
-                    </li>
-                </ul>
+                <div class="contacts-info">
+                    <ul class="contacts-list">
+                        <li class="contacts-item">
+                            <div class="contacts-item-name">Адрес</div>
+                            <div class="contacts-item-info">
+                                <address class="contacts-adress">Киев, улица Юности, дом 5 строение 4, офис 2</address>
+                            </div>
+                        </li>
+                        <li class="contacts-item">
+                            <div class="contacts-item-name">Телефоны</div>
+                            <div class="contacts-item-info contacts-phones">
+                                    <a href="tel:+3806712345678" class="contacts-phone">
+                                        +38 (067) 123-45-67
+                                    </a>
+                                    <a href="tel:+380931234567" class="contacts-phone">
+                                        +38 (093) 123-45-67
+                                    </a>
+                            </div>
+                        </li>
+                        <li class="contacts-item">
+                            <div class="contacts-item-name">E-mail</div>
+                            <div class="contacts-item-info contacts-emails">
+                                <a href="mailto:lg.oona@gmail.com" class="contacts-email">
+                                    lg.oona@gmail.com
+                                </a>
+                                <div class="contacts-email-description">по вопросам бронирования</div>
+                                <a href="mailto:hotels.ln@gmail.com" class="contacts-email">
+                                    hotels.ln@gmail.com
+                                </a>
+                                <div class="contacts-email-description">по вопросам сотрудничества</div>
+                            </div>
+                        </li>
+                        <li class="contacts-item">
+                            <div class="contacts-item-name">График</div>
+                            <div class="contacts-item-info contacts-schedule">
+                                Понедельник - пятница, с 10:00 до 19:00
+                            </div>
+                        </li>
+                        <li class="contacts-item">
+                            <div class="contacts-route">
+                                <a href="" class="btn route-btn">
+                                    Построить маршрут
+                                </a>
+                            </div>
+                        </li>
+                    </ul>
+                    <img src="/img/reception-contacts.jpg" alt="" class="contacts-image">
+                </div>
             </div>
         </section>
     </main>
